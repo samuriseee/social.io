@@ -238,7 +238,6 @@ ul li a {
 .skills img {
     overflow: hidden;
     width:92%;
-    
     object-fit: cover;
     border-radius: 5px;
 }
@@ -409,8 +408,8 @@ ul li a {
     height: 227px;
     top:0px;
     left: 0px;
-    background: url(../img/wave.png);
-    animation: move 10s linear infinite;
+    background: url(./img/wave.png);
+    animation: move 6s linear infinite;
 }
   
 .footer .wave::before {
@@ -420,9 +419,9 @@ ul li a {
     height: 227px;
     margin-bottom: 0;
     left: 0;
-    background: url(../img/wave.png);
+    background: url(./img/wave.png);
     opacity: 0.4;
-    animation: move-reversed 10s linear infinite;
+    animation: move-reversed 6s linear infinite;
 }
 
 .footer .wave::after {
@@ -431,10 +430,10 @@ ul li a {
     height: 227px;
     bottom: 0;
     left: 0;
-    background: url(../img/wave.png);
+    background: url(./img/wave.png);
     opacity: 0.5;
     animation-delay: -4s;
-    animation: move 10s linear infinite;
+    animation: move 6s linear infinite;
 }
 @keyframes move {
     0% {
