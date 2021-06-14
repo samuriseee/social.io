@@ -381,7 +381,7 @@ ul li a {
 }
 .funfact .card:hover .face.face1 {
     position: absolute;
-    transform: translateY(-50%) rotateX(90deg);
+    transform: translateY(-100%) rotateX(90deg);
     background: #1c0522;
 }
 .funfact .card .face.face2 {
@@ -391,13 +391,13 @@ ul li a {
     align-items: center;
     padding:20px;
     transform-origin: top;
-    transform: translateY(50%) rotateX(90deg);
+    transform: translateY(100%) rotateX(90deg);
 }
 .funfact .card .face.face2 h3 {
     color:#fff;
 }
 .funfact .card:hover .face.face2 {
-    transform: translateY(0%) rotateX(0deg);
+    transform: translateY(0) rotateX(0deg);
 }
 .footer {
     background: #1c0522;
